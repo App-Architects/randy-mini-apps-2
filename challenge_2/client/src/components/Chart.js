@@ -52,7 +52,7 @@ class Chart extends Component {
       data.datasets[0].data.push(elem.close);
     });
     return (
-      <div>
+      <div className="container">
         <Line
           data={data}
           height={500}

@@ -21,7 +21,7 @@ class App extends Component {
   }
 
   componentWillMount() {
-    Axios.get('https://api.coindesk.com/v1/bpi/historical/close.json?start=2019-02-01&end=2019-09-05')
+    Axios.get('https://api.coindesk.com/v1/bpi/historical/close.json?start=2018-02-01&end=2019-09-05')
       .then((res) => {
         const arrData = [];
         $.each(res.data.bpi, (k, v) => {
