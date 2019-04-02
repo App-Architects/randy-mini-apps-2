@@ -1,0 +1,16 @@
+.form {
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  padding: 50px;
+}
+
+.list {
+    padding: 0px 50px 50px 50px;
+    width: 70%;
+    margin: auto;
+}
+
+hr {
+    border: solid #BEC2CC .5px;
+}
